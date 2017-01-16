@@ -1,20 +1,20 @@
 # behaivior_cloning
 A car trained by Convolutional Network to drive itself in a video game
 
-### Movie
+## Movie
 
-### Dependencies
+## Dependencies
 python3 / Keras / Tensorflow / numpy / pandas / opencv3
 
-### Datasets
+## Datasets
 - size: 8036
 - original image shape: (160, 320, 3)
 
-### Data Augmentation
+## Data Augmentation
 #### Horizontal Flip
 #### Changing Brightness 
 
-### Preprocessing
+## Preprocessing
 #### Normalization
 #### Crop and Resize images
 - crop image from (160, 320, 3) to (80, 320, 3)
@@ -22,7 +22,7 @@ python3 / Keras / Tensorflow / numpy / pandas / opencv3
 - Resize image for model architecture
 from (80, 320, 3) to (64, 64, 3)  
 
-### Model Architecture
+## Model Architecture
 simple convolutional network
 - Max Pooling
 - Batch Normalization
