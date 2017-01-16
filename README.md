@@ -2,6 +2,8 @@
 A car trained by Convolutional Network to drive itself in a video game
 
 ## Movie
+(https://www.youtube.com/watch?v=0dT81SECRXE)
+
 
 ## Dependencies
 python3 / Keras / Tensorflow / numpy / pandas / opencv3
