@@ -15,8 +15,14 @@ python3 / Keras / Tensorflow / numpy / pandas / opencv3
 From Datasets, I useed "center/left/right Image" and "steering"  
 
 # Data Augmentation
-Original Datasets was made at Track 1, which environment is stable in terms of Brightness, Shadow or 
+Original Datasets was made at Track 1, which environment is stable in terms of Brightness, Shadow, and so on.  
 So there are possible to overfitting.  
+
+## choose camera place
+Datasets have image from "center", "left", "right" place.  
+By using "left" and "right" camera, The model could learn the situation how to recover from side.  
+So when choosing left camera, add steering value to 0.25.  
+When choosing right camera, subtract steering value to 0.25.  
 
 ## Horizontal Flip
 to make left turn and right the same number, Flip images randomly.  
@@ -33,8 +39,6 @@ By execute this, avoid overfitting of light condision.
 
 ## Crop and Resize images
 - crop image from (160, 320, 3) to (80, 320, 3)
-
-
 - Resize image for model architecture
 from (80, 320, 3) to (64, 64, 3)  
 
