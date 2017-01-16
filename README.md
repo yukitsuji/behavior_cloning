@@ -1,6 +1,6 @@
 # About this project
 Project 3 of Udacity's self driving car project, behavior cloning for driving.  
-The main task is to drive a car around in a simulator on a race track, 
+The main task is to drive a car around in a simulator on a race track,   
 and then use deep learning to mimic the behavior of human.  
 
 
