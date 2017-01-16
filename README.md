@@ -23,14 +23,11 @@ python3 / Keras / Tensorflow / numpy / pandas / opencv3
 from (80, 320, 3) to (64, 64, 3)  
 
 ## Model Architecture
-simple convolutional network [Image of Model Architecture](./model.png") 
+simple convolutional network [Image of Model Architecture](https://github.com/yukitsuji/behaivior_cloning/blob/master/model.png) 
 - Max Pooling
 - Batch Normalization
 - ReLU
 - Adam
-
-
-<img src="./model.png" width="200px;"/>
 
 ### Hyperparameter for training model
 - Batch Size: 128
