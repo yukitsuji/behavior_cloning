@@ -3,6 +3,8 @@ A car trained by Convolutional Network to drive itself in a video game
 
 ## Movie
 (https://www.youtube.com/watch?v=0dT81SECRXE)
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+
 
 
 ## Dependencies
