@@ -1,5 +1,5 @@
 # behaivior_cloning
-A car trained by Convolutional Network to drive itself in a video game
+
 
 ## Movie
 [![ScreenShot](http://img.youtube.com/vi/qPCW-x0oUvI/0.jpg)](https://youtu.be/qPCW-x0oUvI)
