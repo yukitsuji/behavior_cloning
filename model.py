@@ -140,7 +140,6 @@ def preprocessing(rgb_image, input_shape=(160, 320)):
     Returns:
         rgb_image: preprocessed Image
     """
-    #normalization
     rgb_image = rgb_image / rgb_image.max() - 0.5
     rgb_image = rgb_image[55:135, :, :]
     rgb_image = cv2.resize(rgb_image, input_shape)
@@ -161,7 +160,6 @@ def augmentation_image(row, input_shape=(160, 320)):
         steering (float): steering corresponding to image augmentation
     """
     steering = row['steering']
-    # choose camera's place
     place = choice(["center", "left", "right"])
     image = input_rgb("./data/" + row[place]).astype(np.float32)
 
@@ -170,12 +168,10 @@ def augmentation_image(row, input_shape=(160, 320)):
     elif place == "right":
         steering -= 0.25
 
-    # flip or not
     if random() < 0.5:
         image = flip_image(image)
         steering = steering * -1
 
-    # brightness
     image = augment_brightness_camera_image(image)
 
     return image, steering
