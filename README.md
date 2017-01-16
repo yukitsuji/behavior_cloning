@@ -16,7 +16,7 @@ From Datasets, I useed "center/left/right Image" and "steering"
 
 # Data Augmentation
 Original Datasets was made at Track 1, which environment is stable in terms of Brightness, Shadow, and so on.  
-So there are possible to overfitting.  
+To avoid overfitting original datasets, I augment datasets by two techniques.  
 
 ## choose camera place
 Datasets have image from "center", "left", "right" place.  
