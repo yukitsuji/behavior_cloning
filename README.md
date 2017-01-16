@@ -37,7 +37,7 @@ I utilize Keras's fit_generator function because there are many data.
 By fit_generator, I can augment on the fly, preprocess images and train the model batch-by-batch  
 
 ## Model Architecture
-simple convolutional network: image [click](https://github.com/yukitsuji/behaivior_cloning/blob/master/model.png) 
+simple convolutional network: [click](https://github.com/yukitsuji/behaivior_cloning/blob/master/model.png) image
 - Max Pooling
 - Batch Normalization
 - ReLU
