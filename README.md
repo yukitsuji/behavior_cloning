@@ -14,10 +14,8 @@ python3 / Keras / Tensorflow / numpy / pandas / opencv3
 simple convolutional network: [click](https://github.com/yukitsuji/behaivior_cloning/blob/master/model.png) image  
 For avoid overfitting, I use *Batch Normalization*.  
 The way of Network initialization is *Glorot Initialization*.  
-When I changed final architecture like adding one Fully Connected Layer,  
-The model was be overfitting to the training cource.  
-Conversely, when I changed 1st Conv Layer's kernel (3, 3),  
-The model was underfitting to the training cource.  
+When I changed final architecture like adding one Fully Connected Layer, The model was be overfitting to the training cource.  
+Conversely, when I changed 1st Conv Layer's kernel (3, 3), The model was underfitting to the training cource.  
 
 - Input: [Batch size, 64, 64, 3]
 - 1st layer: Convolution Layer  
