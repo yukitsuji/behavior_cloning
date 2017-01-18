@@ -58,9 +58,7 @@ The model was underfitting to the training cource.
 
 ### Hyperparameter for training model
 For tuning the model, I experiment different learning rate, epoch.  
-About learning rate, I select 0.001 from [0.001, 0.0005, 0.0001].  
-because other values are so small, and learning speed was so slow.  
-But I think learning rate was affected by the way of network initialization.
+About learning rate, I select 0.001 from [0.001, 0.0005, 0.0001], because other values are so small, and learning speed was so slow/ But I think learning rate was affected by the way of network initialization.
 
 About epoch, validation error about 12 epoch was so good too.  
 But when apply it to test cource, the car run windingly.  
